@@ -1,6 +1,7 @@
-
-    {
-        "anasikram":{
-          "allowed":true
-        },"aroseniazi":{ "allowed":true},"safyanakram":{ "allowed":true}
-    }
+{
+  "anasikram": {
+    "allowed": true
+  },
+  "aroseniazi": { "allowed": true },
+  "safyanakram": { "allowed": true }
+}

@@ -6,7 +6,7 @@ let lock = new asyncLock();
 
 const getFile = async (FILE) => {
   try {
-    const records = require(`./${FILE}`)
+    const records = require(`./${FILE}`);
     return records;
   } catch (err) {
     console.log(err);
@@ -37,7 +37,7 @@ const FileLock = function (callback) {
 const WriteToFile = async (data, FILE) => {
   return FileLock((resolve, reject) => {
     try {
-      fs.writeFileSync(path.resolve(__dirname,FILE), JSON.stringify(data));
+      fs.writeFileSync(path.resolve(__dirname, FILE), JSON.stringify(data));
       resolve();
     } catch (err) {
       reject(err);

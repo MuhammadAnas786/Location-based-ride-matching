@@ -3,7 +3,6 @@ import driverHandler from "../Service/drivers";
 
 export const emitter = new events.EventEmitter();
 
-
 // emitter.on('UpdateLoginStatus', async (recieved) => {
 //   try {
 //     // console.log(new Date());
@@ -91,5 +90,3 @@ emitter.on("changeNotifyStatus", async (recieved) => {
     console.log(err);
   }
 });
-
-

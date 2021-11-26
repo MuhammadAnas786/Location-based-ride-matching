@@ -27,12 +27,12 @@ export const resmessage = {
   update_status_no_passanger: "Updated successfully! No new passanger found",
   update_status_found_passanger: "Updated successfully! new passanger found",
   driver_found: "Driver found successfully!",
-  driver_not_found: "Driver not found please try again"
+  driver_not_found: "Driver not found please try again",
 };
 
 export const constants = {
   ACTIVE_DRIVERS: "Data/activeDrivers.json",
   DRIVERS: "Data/drivers.json",
   PASSANGERS: "Data/passangers.json",
-  JOURNEY:"Data/journey.json"
-}
+  JOURNEY: "Data/journey.json",
+};
